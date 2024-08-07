@@ -26,6 +26,6 @@ public class Task implements Comparable<Task> {
 
     @Override
     public String toString() {
-        return this.date + " : " + content;
+        return this.date + " : " + this.content;
     }
 }
